@@ -1166,27 +1166,6 @@
 
 
 /*********************************************************************************/
-/* Ali                                                                           */
-/*********************************************************************************/
-
-	#ali {
-		background: url('images/overlay.png'), url('../images/ali.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/*********************************************************************************/
-/* Jason                                                                           */
-/*********************************************************************************/
-
-	#jason {
-		background: url('images/overlay.png'), url('../images/jason.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-/*********************************************************************************/
 /* Proposal                                                                         */
 /*********************************************************************************/
 
@@ -1223,7 +1202,7 @@
 /*********************************************************************************/
 
 	#ceremony {
-		background: url('images/overlay.png'), url('../images/arboretum_barn.jpg');
+		background: url('images/overlay.png'), url('../images/mortgage_hall.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -1234,7 +1213,7 @@
 /*********************************************************************************/
 
 	#ceremony_main {
-		background: url('images/overlay.png'), url('../images/arboretum_path.jpg');
+		background: url('images/overlay.png'), url('../images/mortgage_hall2.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -1253,18 +1232,6 @@
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
-/*********************************************************************************/
-/* RSVP                                                                  */
-/*********************************************************************************/
-
-	#rsvp {
-		background: url('images/overlay.png'), url('../images/waterfall.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top center;
-	}
-
-
 
 /*********************************************************************************/
 /* Three                                                                         */
