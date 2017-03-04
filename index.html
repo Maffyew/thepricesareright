@@ -1,6 +1,63 @@
----
----
-{% include header.html title="Welcome!" %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Karl and Lisa are getting married!</title>
+		<link rel="apple-touch-icon-precomposed" href="images/ios-icon.png"/>
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="The wedding page for Karl Brown and Lisa Slover!" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.poptrox.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Header -->
+
+			<header id="header">
+
+				<!-- Logo -->
+				<h1 id="logo"><a href="/index.html">
+					<span >
+					<span class="monospace">Karl and Lisa</span>
+					</span>
+				</a></h1>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="/index.html">Home</a></li>
+							<li><a href="/rsvp.html">RSVP</a></li>
+							<li><a href="/engagement_photos.html">Engagement Photos</a></li>
+							<li><a href="/ceremony.html">The Ceremony</a></li>							
+							<li><a href="/registry.html">Registry</a></li>
+							<li><a href="/guestbook.html">Guestbook</a></li>
+						</ul>
+					</nav>
+
+			</header>
+
+			<section id="mobile_bar" class="main style1 dark mobile_only">
+				<div class="content container small">
+					<a href="/index.html">Home</a>
+					<a href="/rsvp.html">RSVP</a>
+					<a href="/engagement_photos.html">Engagement Photos</a>
+					<a href="/ceremony.html">The Ceremony</a>
+					<a href="/registry.html">Registry</a>
+					<a href="/guestbook.html">Guestbook</a>
+				</div>
+			</section>
+			
+
+
 
 		<!-- Intro -->
 			<section id="intro" class="main style1 dark">
@@ -33,8 +90,8 @@
 					
 				</div>
 			</section>
-
 			<!-- Proposal -->
+
 			<section id="proposal" class="main style2 fullscreen">
 				<div class="content box style2" style="background-color: rgba(255, 255, 255, 0.7);">
 					<header><h2>The Proposal</h2></header>
@@ -43,8 +100,8 @@
 						 in his family for multiple generations to give to Lisa for the engagement. However, due to Karl's snooping he had found out 
 						 that Lisa was a different ring size, and was planning to get a ring custom-made for the proposal. 
 						 Fast forward to a trip Lisa and Karl took to a Jeweller, where Lisa happened to try out various rings she was interested in. 
-						 They turned out to be too big, as Lisa was two ring sizes smaller than she had realized. Karl took the ring passed down in his family 
-						 and slipped it onto her finger and it turned out to fit perfectly, in the ultimate Cinderella moment. They got engaged shortly after.</p>
+						 They turned out to be too tight, as Lisa was two ring sizes smaller than she had realized. Karl took the ring passed down in his family 
+						 and slipped it onto her finger, and the ring fit perfectly in the ultimate Cinderella moment. They got engaged shortly after.</p>
 				</div>
 			</section>
 
@@ -67,16 +124,16 @@
 						<a href="engagement_photos.html">
 						<div class="container small animated">
 							<div class="row flush images">
-								<div class="6u"><img class="image full l" src="images/thumbs/engagement/AliJason-43-3106948439-O.jpg" /></div>
-								<div class="6u"><img class="image full r" src="images/thumbs/engagement/AliJason-65-3106950000-O.jpg"/></div>
+								<div class="6u"><img class="image full l" src="images/thumbs/engagement/KW-2016-DC-91-bw K.jpg" /></div>
+								<div class="6u"><img class="image full r" src="images/thumbs/engagement/KW-2016-DC-77 K.JPG"/></div>
 							</div>
 							<div class="row flush images">
-								<div class="6u"><img class="image full l" src="images/thumbs/engagement/AliJason-73-3106950934-O.jpg"/></div>
-								<div class="6u"><img class="image full r" src="images/thumbs/engagement/AliJason-93-3106952105-O.jpg" /></div>
+								<div class="6u"><img class="image full l" src="images/thumbs/engagement/KW-2016-DC-19 K.JPG"/></div>
+								<div class="6u"><img class="image full r" src="images/thumbs/engagement/KW-2016-DC-7-bw-adjusted.jpg" /></div>
 							</div>
 							<div class="row flush images">
-								<div class="6u"><img class="image full l" src="images/thumbs/engagement/AliJason-125-3106954029-O.jpg"/></div>
-								<div class="6u"><img class="image full r" src="images/thumbs/engagement/AliJason-170-3106956478-O.jpg"/></div>
+								<div class="6u"><img class="image full l" src="images/thumbs/engagement/KW-2016-DC-15 K.JPG"/></div>
+								<div class="6u"><img class="image full r" src="images/thumbs/engagement/KW-2016-DC-120-adjusted.JPG"/></div>
 							</div>
 						</div>
 						</a>
@@ -149,4 +206,24 @@
 				</div>
 			</section>
 
-{% include footer.html %}
+			<footer id="footer">
+			
+				<!--
+				     Social Icons
+				     
+				     Use anything from here: http://fortawesome.github.io/Font-Awesome/cheatsheet/)
+				-->
+					<ul class="actions">
+						<li><a href="https://github.com/thekarlbrown/WeddingSite" class="fa solo fa-github"><span>GitHub</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Karl &amp; Lisa Brown</li>
+						<li>Design: <a href="http://html5up.net/">HTML5 UP</a></li>
+						<li>Photography by: <a href="http://www.itskeeks.com/">Keekee Winslow</a></li>
+					</ul>
+			
+			</footer>
+	</body>
+</html>
