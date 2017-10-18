@@ -1146,10 +1146,10 @@
 /*********************************************************************************/
 
 	#intro {
-		background: url('images/overlay.png'), url('../images/dubai.jpg');
+		background: url('images/overlay.png'), url('../images/niagarafalls.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
-		background-position: 0%, 30%;
+		background-position: 0%, 100%;
 		background-repeat: repeat, no-repeat;
 	}
 
@@ -1170,7 +1170,7 @@
 /*********************************************************************************/
 
 	#proposal {
-		background: url('images/overlay.png'), url('../images/ring.jpg');
+		background: url('images/overlay.png'), url('../images/ring2.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: 70% 0%;
@@ -1203,7 +1203,7 @@
 /*********************************************************************************/
 
 	#ceremony {
-		background: url('images/overlay.png'), url('../images/hengrave.jpg');
+		background: url('images/overlay.png'), url('../images/hengrave-hall.jpg');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
@@ -1225,7 +1225,7 @@
 /*********************************************************************************/
 
 	#playlist {
-		background: url('images/overlay.png'), url('../images/fulls/wedding/KW-2016-DC-KE-781.JPG');
+		background: url('images/overlay.png'), url('../images/wedding_band_home_01.JPG');
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
